@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnvironmentConfig>
+    <Environment>
+        <Dynammics365Instance>
+            <OrganizationFriendlyName>TrialInstanceUser</OrganizationFriendlyName>
+            <!-- <DefaultAppsTobeInstalled>D365_Sales,D365_CustomerService,D365_FieldService,D365_ProjectServiceAutomation</DefaultAppsTobeInstalled> -->
+            <DefaultAppsTobeInstalled></DefaultAppsTobeInstalled> -->
+            <SuffixStart>0</SuffixStart>
+            <SuffixEnd>10</SuffixEnd>
+            <TimeoutInMinutes>2000</TimeoutInMinutes>
+            <InstanceType>Sandbox</InstanceType>
+            <CopyType>FullCopy</CopyType>
+            <!-- use appropiate service URL, please refer https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/online-management-api/get-started-online-management-api#service-url-->
+            <InstanceHostByRegion>https://admin.services.crm.dynamics.com/</InstanceHostByRegion>
+            <!-- Use this only when you want to copy the instance-->
+            <SourceInstanceOrganizationId></SourceInstanceOrganizationId>
+            <TenantId></TenantId>
+        </Dynammics365Instance>
+    </Environment>
+</EnvironmentConfig>
